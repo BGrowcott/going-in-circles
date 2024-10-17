@@ -9,3 +9,13 @@ section {
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgb(115, 113, 113) inset;
 }
+
+label {
+    width: 25%;
+}
+
+@media screen and (max-width: 780px) {
+    label {
+        width: 50%;
+    }
+}
